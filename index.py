@@ -6,15 +6,18 @@ import webbrowser
 
 
 ascii_art = [
-    Fore.MAGENTA + "██████╗ ██╗  ██╗ ██████╗ ",
-    Fore.MAGENTA + "╚════██╗██║  ██║██╔═████╗",
-    Fore.MAGENTA + "█████╔╝███████║██║██╔██║",
-    Fore.MAGENTA + "██╔═══╝ ╚════██║████╔╝██║",
-    Fore.MAGENTA + "███████╗     ██║╚██████╔╝",
-    Fore.MAGENTA + "╚══════╝     ╚═╝ ╚═════╝",
-    Fore.MAGENTA + "                 Boost Tools | qtr 240                     ",
-    Fore.MAGENTA + "                This Tool By 240 | 240                    ",
-    Fore.MAGENTA + "                     discord.gg/l-v                         ",
+    Fore.MAGENTA + "  ██░ ██  ▓█████▒██   ██▒  ██████   ██░ ██   ██▓ ▓█████  ██▓   ▓█████▄ ",
+    Fore.MAGENTA + "▒▓██░ ██  ▓█   ▀▒▒ █ █ ▒░▒██    ▒ ▒▓██░ ██ ▒▓██▒ ▓█   ▀ ▓██▒   ▒██▀ ██▌",
+    Fore.MAGENTA + "░▒██▀▀██  ▒███  ░░  █   ░░ ▓██▄   ░▒██▀▀██ ▒▒██▒ ▒███   ▒██░   ░██   █▌",
+    Fore.MAGENTA + " ░▓█ ░██  ▒▓█  ▄ ░ █ █ ▒   ▒   ██▒ ░▓█ ░██ ░░██░ ▒▓█  ▄ ▒██░   ░▓█▄   ▌",
+    Fore.MAGENTA + " ░▓█▒░██▓▒░▒████▒██▒ ▒██▒▒██████▒▒ ░▓█▒░██▓░░██░▒░▒████▒░██████░▒████▓ ",
+    Fore.MAGENTA + "  ▒ ░░▒░▒░░░ ▒░ ▒▒ ░ ░▓ ░▒ ▒▓▒ ▒ ░  ▒ ░░▒░▒ ░▓  ░░░ ▒░ ░░ ▒░▓   ▒▒▓  ▒ ",
+    Fore.MAGENTA + "  ▒ ░▒░ ░░ ░ ░  ░░   ░▒ ░░ ░▒  ░    ▒ ░▒░ ░░ ▒ ░░ ░ ░  ░░ ░ ▒   ░ ▒  ▒ ",
+    Fore.MAGENTA + "  ░  ░░ ░    ░   ░    ░  ░  ░  ░    ░  ░░ ░░ ▒ ░    ░     ░ ░   ░ ░  ░ ",
+    Fore.MAGENTA + "  ░  ░  ░░   ░   ░    ░        ░    ░  ░  ░  ░  ░   ░  ░    ░     ░    ",
+    "",
+    Fore.MAGENTA + "                 Boost Tools V.2.1 | 2qz_                     ",
+    Fore.MAGENTA + "                This Tool made By   HexSheild               ",
 ]
 def open_discord_link():
     url = "https://discord.gg/l-v"
@@ -45,7 +48,7 @@ def main():
     while True:
         clear()  
         print_ascii_art() 
-        print(Fore.MAGENTA + "            If you want support, go to Discord l-v")
+        print(Fore.MAGENTA + "           HEX SHIELD bst V.2.1")
         print(Fore.BLUE + "____________________________________________")
         print(Fore.MAGENTA + "1 | Stock Tokens")
         print(Fore.MAGENTA + "2 | NickName")
