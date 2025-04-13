@@ -1,9 +1,9 @@
-Discord Server Booster
+# Discord Server Booster
 This tool is designed to automatically boost a Discord server using a bot account.
 
 To get started, you’ll need a few things configured properly. Follow the steps below to make sure everything is set up correctly.
 
-🔧 Setup Instructions
+# 🔧 Setup Instructions
 Clone this repository to your local machine.
 
 Open the token.txt file and paste your Discord token inside it.
