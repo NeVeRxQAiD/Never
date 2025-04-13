@@ -1,37 +1,60 @@
-# Discord Server Booster
-This tool is designed to automatically boost a Discord server using a bot account.
 
-To get started, you’ll need a few things configured properly. Follow the steps below to make sure everything is set up correctly.
+# 🚀 Discord Server Booster Tool
 
-# 🔧 Setup Instructions
-Clone this repository to your local machine.
+This tool is designed to **automatically boost a Discord server** using your account credentials and configuration.
 
-Open the token.txt file and paste your Discord token inside it.
+> ⚠️ **Use responsibly.** Boosting with a self-bot or user token may violate [Discord's Terms of Service](https://discord.com/terms).
 
-This token must be from a valid bot or user account (use at your own risk).
+---
 
-Open the config.py file and fill in the required values:
+## 🛠️ Setup Instructions
 
-token: Your Discord token (same as in token.txt)
+1. **Clone** this repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
 
-server_id: The ID of the server you want to boost
+2. **Add your Discord token** in the `token.txt` file:
+   ```txt
+   Njk4...your_token_here...mTQ5
+   ```
 
-client_id: Your application's client ID
+3. **Open `config.py`** and fill in the following fields:
+   ```python
+   token = "your_token_here"
+   server_id = "your_server_id"
+   client_id = "your_client_id"
+   client_secret = "your_client_secret"
+   ```
 
-client_secret: Your application's client secret
+4. Save the file and make sure everything is correct.
 
-Save the files after editing.
+---
 
-# ⚠️ Important Notes
-Make sure the token you're using has the required permissions.
+## ▶️ Running the Tool
 
-Boosting using a self-bot or user token may violate Discord’s Terms of Service.
+Run the script using Python:
 
-Use this tool responsibly and only on servers you own or have permission to manage.
+```bash
+python main.py
+```
 
-# ▶️ How to Run
-Simply run the main script using Python:
+---
 
+## 📌 Requirements
 
-<pre> ```bash python main.py ``` </pre>
-The tool will handle the boosting process automatically based on your config.
+- Python 3.x
+- A valid Discord account or bot token
+- Access to the server you want to boost
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is for **educational purposes only**. The developer is **not responsible** for any misuse or violations of Discord’s rules. Always use tools like this ethically and within the terms of service.
+
+---
+
+## 💬 Need Help?
+
+Feel free to open an issue or contact the developer for support or improvements.
